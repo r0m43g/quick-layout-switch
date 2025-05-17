@@ -1,0 +1,7 @@
+{
+  "name": "Quick Layout Switch",
+  "description": "Assign specific keyboard shortcuts to switch to specific keyboard layouts",
+  "uuid": "quick-layout-switch@webcoda.eu",
+  "shell-version": ["48"],
+  "settings-schema": "org.gnome.shell.extensions.quick-layout-switch"
+}

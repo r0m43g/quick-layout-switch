@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.quick-layout-switch" path="/org/gnome/shell/extensions/quick-layout-switch/">
+    <key name="layout-info" type="s">
+      <default>''</default>
+      <summary>Информация о раскладках</summary>
+      <description>JSON-строка, содержащая информацию о доступных раскладках</description>
+    </key>
+    <key name="switch-to-layout-0" type="as">
+      <default>[]</default>
+      <summary>Сочетание клавиш для первой раскладки</summary>
+      <description>Сочетание клавиш для переключения на первую раскладку</description>
+    </key>
+    <key name="switch-to-layout-1" type="as">
+      <default>[]</default>
+      <summary>Сочетание клавиш для второй раскладки</summary>
+      <description>Сочетание клавиш для переключения на вторую раскладку</description>
+    </key>
+    <key name="switch-to-layout-2" type="as">
+      <default>[]</default>
+      <summary>Сочетание клавиш для третьей раскладки</summary>
+      <description>Сочетание клавиш для переключения на третью раскладку</description>
+    </key>
+    <key name="switch-to-layout-3" type="as">
+      <default>[]</default>
+      <summary>Сочетание клавиш для четвертой раскладки</summary>
+      <description>Сочетание клавиш для переключения на четвертую раскладку</description>
+    </key>
+    <key name="switch-to-layout-4" type="as">
+      <default>[]</default>
+      <summary>Сочетание клавиш для пятой раскладки</summary>
+      <description>Сочетание клавиш для переключения на пятую раскладку</description>
+    </key>
+  </schema>
+</schemalist>
